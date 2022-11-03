@@ -12,9 +12,17 @@ h3,
 h4,
 h5,
 h6,
-p {margin: 0;padding: 0;}
+p {margin: 0;}
 
 ul{margin: 0; padding: 0;}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid brown;
+}
 
 /* ----------------------BODY---------------------------- */
 .header{
