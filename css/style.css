@@ -1,0 +1,214 @@
+:root {
+    --second-color: #FFFFFF;
+    --brend-color: #2F303A;
+    --background-team:#F5F4FA;
+    --color-item-tel-mail:#757575;
+    --link-decoration:none;
+    --point:none;
+}
+
+/* ----------------------BODY---------------------------- */
+.header{
+ background-color: var(--second-color);
+}
+body{
+font-family: 'Roboto',sans-serif;
+color: #212121;
+}
+
+/* -------------------NAV--------------------------- */
+.nav-logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration:var(--link-decoration);
+}
+.nav-logo-title{
+    color: #2196F3;
+}
+.nav-link{
+    list-style:var(--point) ;
+}
+.link{
+    text-decoration:var(--link-decoration) ;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+/* --------------------tel/mail--------------------------------- */
+.link-contact{
+    list-style:var(--point);
+
+}
+.contact{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--color-item-tel-mail);
+text-decoration:var(--link-decoration) ;
+}
+.contact:hover,
+.contact:focus{
+    color: #2196F3;
+}
+/* --------------------------title-------------------------------- */
+.title{
+    background-color:var(--brend-color);
+}
+.title-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background: #2196F3;
+    
+}
+/* ----------------------------BENEFITS--------------------------- */
+.benefits{ 
+  background-color:var(--second-color);
+}
+.item{
+    list-style:var(--point);
+}
+.item-header{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-item-tel-mail);
+}
+/* ----------------------------WORK--------------------------------- */
+.works{
+    background-color: var(--second-color);
+}
+.out-team{
+background-color: var(--background-team);
+}
+
+.work{
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.work-photo{
+    list-style:var(--point) ;
+}
+.work-team{
+    list-style:var(--point) ;
+}
+.player-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.job{
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-item-tel-mail);
+}
+/* ---------------------footer------------------------------------- */
+.basement{
+    background-color:var(--brend-color);
+}
+.webstudio{
+    font-family: 'Raleway';
+    text-decoration:var(--link-decoration) ;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-title{
+    text-decoration:var(--link-decoration) ;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.connection{
+    text-decoration:var(--link-decoration) ;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ---------------------------PORTFOLIO-------------------- */
+.content{
+    background-color: var(--second-color);
+}
+
+.navigation{
+    list-style:var(--point) ;
+    
+}
+.navigation-btn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.navigation-btn:hover,
+.navigation-btn:focus{
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+.portfolio{
+    list-style:var(--point) ;
+}
+.photo{
+    text-decoration:var(--link-decoration);
+}
+.portfolio-items{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:#212121;
+}
+.portfolio-item{
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+     color: var(--color-item-tel-mail);
+}
