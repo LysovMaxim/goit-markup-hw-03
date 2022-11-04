@@ -27,6 +27,9 @@ ul{margin: 0; padding: 0;}
 /* ----------------------BODY---------------------------- */
 .header{
  background-color: var(--second-color);
+ padding-top: 24px;
+ padding-bottom: 25px;
+ 
 }
 body{
 font-family: 'Roboto',sans-serif;
@@ -83,6 +86,9 @@ text-decoration:var(--link-decoration) ;
     background-color:var(--brend-color);
 }
 .title-header{
+    padding-top: 200px;
+    margin-bottom: 30px;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -108,6 +114,20 @@ text-decoration:var(--link-decoration) ;
 /* ----------------------------BENEFITS--------------------------- */
 .benefits{ 
   background-color:var(--second-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.caption{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .item{
     list-style:var(--point);
@@ -133,16 +153,22 @@ background-color: var(--background-team);
 }
 
 .work{
+    margin-bottom: 50px;
+    padding-top: 94px;
+
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .work-photo{
+padding-bottom: 94px;
+
     list-style:var(--point) ;
 }
 .work-team{
     list-style:var(--point) ;
+    padding-bottom: 94px;
 }
 .player-team{
     font-weight: 500;
@@ -161,15 +187,28 @@ background-color: var(--background-team);
 /* ---------------------footer------------------------------------- */
 .basement{
     background-color:var(--brend-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
 .webstudio{
+    margin-bottom: 20px;
+
+    display: block;
     font-family: 'Raleway';
     text-decoration:var(--link-decoration) ;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    
 }
+.address{
+    margin-bottom: 9px;
+    
+}
+
+
 .address-title{
     text-decoration:var(--link-decoration) ;
     font-style: normal;
@@ -185,6 +224,14 @@ background-color: var(--background-team);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.connection-mail{
+    display: block;
+    margin-bottom: 9px;
+
+}
+    
+
 /* ---------------------------PORTFOLIO-------------------- */
 .content{
     background-color: var(--second-color);
@@ -192,6 +239,8 @@ background-color: var(--background-team);
 
 .navigation{
     list-style:var(--point) ;
+    padding-top: 94px;
+    padding-bottom: 34px ;
     
 }
 .navigation-btn{
