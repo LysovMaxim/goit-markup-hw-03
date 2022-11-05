@@ -21,7 +21,10 @@ ul{margin: 0; padding: 0;}
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid brown;
+    outline: 2px solid forestgreen;
+}
+img{
+    display: block;
 }
 
 /* ----------------------BODY---------------------------- */
@@ -32,8 +35,9 @@ ul{margin: 0; padding: 0;}
  padding-bottom: 25px;
 }
 
-.header .container{
+.container-nav-link{
     display: flex;
+    align-items: center;
 }
 
 
@@ -56,11 +60,17 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration:var(--link-decoration);
+    margin-right: 93px;
 }
 .nav-logo-title{
     color: #2196F3;
 }
+.navigation-link{
+    margin-right: auto;
+}
+
 .nav-link{
+    gap: 50px;
     list-style:var(--point) ;
     display: flex;
 }
@@ -94,6 +104,9 @@ text-decoration:var(--link-decoration) ;
 .contact:hover,
 .contact:focus{
     color: #2196F3;
+}
+.contact-mail{
+    margin-right: 50px;
 }
 
 /* --------------------------title-------------------------------- */
@@ -141,9 +154,17 @@ text-decoration:var(--link-decoration) ;
 /* ----------------------------BENEFITS--------------------------- */
 .benefits{ 
   background-color:var(--second-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 86px;
+  padding-bottom: 102px;
 }
+.benefits-list{
+    display: flex;
+    gap: 30px;
+}
+.text{
+    
+}
+
 .caption{
     position: absolute;
     width: 1px;
@@ -158,12 +179,15 @@ text-decoration:var(--link-decoration) ;
 }
 .item{
     list-style:var(--point);
+    
+
 }
 .item-header{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .text{
     font-size: 14px;
@@ -181,8 +205,7 @@ background-color: var(--background-team);
 
 .work{
     margin-bottom: 50px;
-    padding-top: 94px;
-
+    
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -190,12 +213,25 @@ background-color: var(--background-team);
 }
 .work-photo{
 padding-bottom: 94px;
+list-style:var(--point) ;
+display: flex;
+gap: 30px;
+}
 
-    list-style:var(--point) ;
+.work-out-team{
+    padding-top: 94px;
 }
 .work-team{
     list-style:var(--point) ;
     padding-bottom: 94px;
+    display: flex;
+    gap: 30px;
+    
+}
+.player{
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+    border-radius: 5px;
 }
 .player-team{
     font-weight: 500;
@@ -203,13 +239,19 @@ padding-bottom: 94px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 30px;  
 }
+.player-teams{
+    box-shadow: 0px 0.4px 0px 0px #757575;
+}
+
 .job{
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-item-tel-mail);
+    margin-top: 10px;
 }
 /* ---------------------footer------------------------------------- */
 .basement{
@@ -244,6 +286,9 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.link-contact-footer{
+    list-style: var(--point);
+}
 .connection{
     text-decoration:var(--link-decoration) ;
     font-size: 14px;
@@ -264,13 +309,26 @@ padding-bottom: 94px;
     background-color: var(--second-color);
 }
 
+
+
+
 .navigation{
     list-style:var(--point) ;
     padding-top: 94px;
     padding-bottom: 34px ;
+    display: flex;
+    
+    gap: 8px;
+    justify-content: center;
+    
     
 }
 .navigation-btn{
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -280,6 +338,7 @@ padding-bottom: 94px;
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0px;
     cursor: pointer;
 }
 .navigation-btn:hover,
@@ -288,18 +347,44 @@ padding-bottom: 94px;
   color: #FFFFFF;
 }
 .portfolio{
+    padding-bottom: 94px;
+
     list-style:var(--point) ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
 }
+.photo-items{
+
+}
+.informetion{
+    background-color: #FFFFFF;
+    border-right: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE ;
+    border-left: 2px solid #EEEEEE ;
+    padding-left: 24px;
+}
+ 
 .photo{
     text-decoration:var(--link-decoration);
 }
+
 .portfolio-items{
+    padding-top: 20px;
+
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color:#212121;
+    
 }
+
+
 .portfolio-item{
+    margin-top: 4px;
+    padding-bottom: 20px;
+
     font-size: 16px;
     line-height: 1,87;
     letter-spacing: 0.03em;
