@@ -32,6 +32,7 @@ img{
  background-color: var(--second-color);
  padding-top: 24px;
  padding-bottom: 25px;
+ border-bottom: 1px solid #ECECEC;
 }
 
 .container-nav-link{
@@ -115,8 +116,8 @@ text-decoration:var(--link-decoration) ;
 .container-title{
     padding-top: 195px;
     padding-bottom: 200px;
-    padding-right: 237px;
-    padding-left: 237px;
+    max-width: 696px;
+
 }
 .title-header{
     
@@ -220,10 +221,10 @@ gap: 30px;
 
 .work-out-team{
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .work-team{
     list-style:var(--point) ;
-    padding-bottom: 94px;
     display: flex;
     gap: 30px;
     
@@ -310,16 +311,18 @@ gap: 30px;
 .content{
     background-color: var(--second-color);
 }
+.section-portfolio{
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 
 
 
 .navigation{
     list-style:var(--point) ;
-    padding-top: 94px;
-    padding-bottom: 34px ;
+    margin-bottom: 50px ;
     display: flex;
-    
     gap: 8px;
     justify-content: center;
     
@@ -349,8 +352,6 @@ gap: 30px;
   color: #FFFFFF;
 }
 .portfolio{
-    padding-bottom: 94px;
-
     list-style:var(--point) ;
     display: flex;
     flex-wrap: wrap;
@@ -366,6 +367,8 @@ gap: 30px;
     border-bottom: 2px solid #EEEEEE ;
     border-left: 2px solid #EEEEEE ;
     padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
  
 .photo{
@@ -373,8 +376,6 @@ gap: 30px;
 }
 
 .portfolio-items{
-    padding-top: 20px;
-
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -385,10 +386,9 @@ gap: 30px;
 
 .portfolio-item{
     margin-top: 4px;
-    padding-bottom: 20px;
 
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
      color: var(--color-item-tel-mail);
 }
