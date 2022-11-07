@@ -112,10 +112,11 @@ text-decoration:var(--link-decoration) ;
 /* --------------------------title-------------------------------- */
 .title{
     background-color:var(--brend-color);
-}
-.container-title{
     padding-top: 195px;
     padding-bottom: 200px;
+}
+.container-title{
+    padding: 0px;
     max-width: 696px;
 
 }
@@ -199,8 +200,11 @@ text-decoration:var(--link-decoration) ;
 /* ----------------------------WORK--------------------------------- */
 .works{
     background-color: var(--second-color);
+    padding-bottom: 94px;
 }
 .out-team{
+        padding-top: 94px;
+            padding-bottom: 94px;
 background-color: var(--background-team);
 }
 
@@ -213,15 +217,13 @@ background-color: var(--background-team);
     letter-spacing: 0.03em;
 }
 .work-photo{
-padding-bottom: 94px;
 list-style:var(--point) ;
 display: flex;
 gap: 30px;
 }
 
 .work-out-team{
-    padding-top: 94px;
-    padding-bottom: 94px;
+
 }
 .work-team{
     list-style:var(--point) ;
@@ -363,9 +365,9 @@ padding-bottom: 94px;
 }
 .informetion{
     background-color: #FFFFFF;
-    border-right: 2px solid #EEEEEE;
-    border-bottom: 2px solid #EEEEEE ;
-    border-left: 2px solid #EEEEEE ;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE ;
+    border-left: 1px solid #EEEEEE ;
     padding-left: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
